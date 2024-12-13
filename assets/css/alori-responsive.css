@@ -787,7 +787,7 @@
 
     .main-slider .container {
         position: relative;
-        padding-top: 60px;
+        padding-top: 90px;
         padding-bottom: 0px;
         z-index: 2;
     }
@@ -1354,7 +1354,7 @@
 
     /**Page Header**/
     .page-header__content h2 {
-        font-size: 55px;
+        font-size: 36px;
     }
 
     /**Mission One**/
@@ -1392,7 +1392,7 @@
     .about-one--two--about {
         position: relative;
         display: block;
-        padding: 120px 0px 120px;
+        padding: 60px 0px 60px;
     }
 
 

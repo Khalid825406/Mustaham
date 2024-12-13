@@ -344,14 +344,13 @@ function translateContent() {
         document.body.classList.remove("rtl");
     }
 
-    // Update button text with globe icon for language toggle
-    const toggleButton = document.querySelector(".language-button");
-    if (toggleButton) {
-        toggleButton.innerHTML =
+    // Update text for all language buttons
+    document.querySelectorAll(".language-button").forEach((button) => {
+        button.innerHTML =
             currentLanguage === "ar"
                 ? '<i class="fa-solid fa-globe"></i> English' // For Arabic, show globe with English text
                 : '<i class="fa-solid fa-globe"></i> عربي'; // For English, show globe with Arabic text
-    }
+    });
 }
 
 // Function to toggle language
@@ -366,60 +365,3 @@ function toggleLanguage() {
 document.addEventListener("DOMContentLoaded", () => {
     translateContent(); // Initial translation based on stored language
 });
-
-
-
-// // Default language (check if it's stored in localStorage)
-//     let currentLanguage = localStorage.getItem("language") || "en";
-
-//     // Function to translate content
-//     function translateContent() {
-//         // Update text for each translatable element
-//         document.querySelectorAll("[data-translate]").forEach((el) => {
-//             const key = el.getAttribute("data-translate").toLowerCase();
-//             const translatedText = translations[currentLanguage][key];
-//             if (translatedText) {
-//                 // If translation has <br> tag, preserve it in innerHTML
-//                 if (translatedText.includes("<br>")) {
-//                     el.innerHTML = translatedText; // Use innerHTML to allow <br> tags
-//                 } else {
-//                     el.textContent = translatedText; // Otherwise, just update textContent
-//                 }
-//             } else {
-//                 console.warn(`Translation not found for key:`, key);
-//             }
-//         });
-
-//         // Apply CSS class for RTL or LTR based on language
-//         if (currentLanguage === "ar") {
-//             document.body.classList.add("rtl");
-//             document.body.classList.remove("ltr");
-//         } else {
-//             document.body.classList.add("ltr");
-//             document.body.classList.remove("rtl");
-//         }
-
-//         // Update button text with globe icon for language toggle
-//         const toggleButton = document.querySelector(".language-button");
-//         if (toggleButton) {
-//             toggleButton.innerHTML =
-//                 currentLanguage === "ar"
-//                     ? '<i class="fa-solid fa-globe"></i> English' // For Arabic, show globe with English text
-//                     : '<i class="fa-solid fa-globe"></i> عربي'; // For English, show globe with Arabic text
-//         }
-//     }
-
-//     // Function to toggle language
-//     function toggleLanguage() {
-//         currentLanguage = currentLanguage === "en" ? "ar" : "en";
-//         // Save the selected language to localStorage
-//         localStorage.setItem("language", currentLanguage);
-//         translateContent();
-//     }
-
-
-
-//     // Initial translation when page loads
-//     document.addEventListener("DOMContentLoaded", () => {
-//         translateContent(); // Initial translation based on stored language
-//     });

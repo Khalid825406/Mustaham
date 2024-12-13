@@ -787,7 +787,7 @@
 
     .main-slider .container {
         position: relative;
-        padding-top: 54px;
+        padding-top: 60px;
         padding-bottom: 0px;
         z-index: 2;
     }
@@ -821,7 +821,7 @@
         transform: translateY(80px);
     }
     .main-slider-one__text {
-        margin-bottom: 0px;
+        margin-bottom: 8px;
     }
     .auto-container {
         position: static;
@@ -838,7 +838,7 @@
     }
 
     .main-slider-one__title {
-        font-size: 30px;
+        font-size: 34px;
     }
     .main-slider-one__text {
         font-size: 15px;

@@ -3632,14 +3632,7 @@ button {
     Blog One
 =============================================
 ***/
-.blog-one {
-  position: relative;
-  display: block;
-  padding: 0px 0px 60px;
-  background: #ffffff;
-  z-index: 1;
-  margin-top: 100px;
-}
+
 
 .blog-one .sec-title {
   margin-bottom: 56px;
@@ -12118,7 +12111,9 @@ Shop Details Products
   color: var(--alori-base);
   font-weight: 600;
 }
-
+.footer-main{
+  display: contents;
+}
 .cart-totals-form button {
   display: block;
   width: 100%;

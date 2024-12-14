@@ -3539,7 +3539,7 @@ button {
   position: relative;
   display: block;
   background: #ffffff;
-  padding: 0px 0px 120px;
+  padding: 0px 0px 0px;
   z-index: 1;
 }
 

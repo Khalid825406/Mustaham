@@ -51,7 +51,6 @@
 <body>
 
     <div class="page-wrapper">
-
         <header id="mainHeader" class="main-header main-header--one clearfix">
             <div class="main-header--one__wrapper">
                 <div class="auto-container">
@@ -65,7 +64,7 @@
 
                         <nav class="main-menu main-menu--1">
                             <div class="main-menu__inner">
-                                <button class="language-button" onclick="toggleLanguage()">
+                                <button class="language-button my-dis" onclick="toggleLanguage()">
                                     <i class="fa-solid fa-globe"></i> Arabic
                                 </button>
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
@@ -108,10 +107,6 @@
                 </div>
             </div>
         </header>
-
-
-
-
 
         <!--Start Page Header-->
         <section class="page-header">
@@ -309,47 +304,51 @@
                                     </div>
                                     <!--End Footer Widget Column-->
 
-                                    <!--Start Footer Widget Column-->
-                                    <div class="col-xl-3 col-lg-3 col-md-6 wow animated fadeInUp" data-wow-delay="0.3s">
-                                        <div class="footer-widget__column footer-widget__services">
-                                            <h2 class="footer-widget__title" data-translate="services_title">Services
-                                            </h2>
-                                            <ul class="footer-widget__services-list">
-                                                <li class="footer-widget__services-list-item"><a href="#"
-                                                        data-translate="flooring">Flooring</a></li>
-                                                <li class="footer-widget__services-list-item"><a href="#"
-                                                        data-translate="wood floor">Wood Floor</a></li>
-                                                <li class="footer-widget__services-list-item"><a href="#"
-                                                        data-translate="woodhard">Woodhard</a></li>
-                                                <li class="footer-widget__services-list-item"><a href="#"
-                                                        data-translate="tiles setup">Tiles setup</a></li>
-                                                <li class="footer-widget__services-list-item"><a href="#"
-                                                        data-translate="carpet setup">Carpet Setup</a></li>
-                                            </ul>
+                                    <div class="footer-main">
+                                        <div class="col-xl-3 col-lg-3 col-md-6 wow animated fadeInUp main-footer"
+                                            data-wow-delay="0.3s">
+                                            <div class="footer-widget__column footer-widget__services">
+                                                <h2 class="footer-widget__title" data-translate="services_title">
+                                                    Services
+                                                </h2>
+                                                <ul class="footer-widget__services-list">
+                                                    <li class="footer-widget__services-list-item"><a href="#"
+                                                            data-translate="flooring">Flooring</a></li>
+                                                    <li class="footer-widget__services-list-item"><a href="#"
+                                                            data-translate="wood floor">Wood Floor</a></li>
+                                                    <li class="footer-widget__services-list-item"><a href="#"
+                                                            data-translate="woodhard">Woodhard</a></li>
+                                                    <li class="footer-widget__services-list-item"><a href="#"
+                                                            data-translate="tiles setup">Tiles setup</a></li>
+                                                    <li class="footer-widget__services-list-item"><a href="#"
+                                                            data-translate="carpet setup">Carpet Setup</a></li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <!--End Footer Widget Column-->
 
-                                    <!--Start Footer Widget Column-->
-                                    <div class="col-xl-2 col-lg-2 col-md-6 wow animated fadeInUp" data-wow-delay="0.5s">
-                                        <div class="footer-widget__column footer-widget__quick-links">
-                                            <h2 class="footer-widget__title" data-translate="quick_links_title">Quick
-                                                Links</h2>
-                                            <ul class="footer-widget__quick-links-list">
-                                                <li class="footer-widget__quick-links-list-item"><a href="contact.html"
-                                                        data-translate="contact_us">Contact us</a></li>
-                                                <li class="footer-widget__quick-links-list-item"><a
-                                                        href="protfolio.html" data-translate="our_project">Our
-                                                        Project</a></li>
-                                                <li class="footer-widget__quick-links-list-item"><a href="about.html"
-                                                        data-translate="about_company">About Company</a></li>
-                                                <li class="footer-widget__quick-links-list-item"><a
-                                                        href="blog-single.html" data-translate="news_update">News
-                                                        Update</a></li>
-                                            </ul>
+                                        <div class="col-xl-2 col-lg-2 col-md-6 wow animated fadeInUp"
+                                            data-wow-delay="0.5s">
+                                            <div class="footer-widget__column footer-widget__quick-links">
+                                                <h2 class="footer-widget__title" data-translate="quick_links_title">
+                                                    Quick
+                                                    Links</h2>
+                                                <ul class="footer-widget__quick-links-list">
+                                                    <li class="footer-widget__quick-links-list-item"><a
+                                                            href="contact.html" data-translate="contact_us">Contact
+                                                            us</a></li>
+                                                    <li class="footer-widget__quick-links-list-item"><a
+                                                            href="protfolio.html" data-translate="our_project">Our
+                                                            Project</a></li>
+                                                    <li class="footer-widget__quick-links-list-item"><a
+                                                            href="about.html" data-translate="about_company">About
+                                                            Company</a></li>
+                                                    <li class="footer-widget__quick-links-list-item"><a
+                                                            href="blog-single.html" data-translate="news_update">News
+                                                            Update</a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                    <!--End Footer Widget Column-->
 
                                     <!--Start Footer Widget Column-->
                                     <div class="col-xl-3 col-lg-3 col-md-6 wow animated fadeInUp" data-wow-delay="0.7s">
@@ -388,7 +387,10 @@
                         <div class="col-xl-12">
                             <div class="footer-one__bottom-inner">
                                 <div class="footer-one__bottom-text">
-                                    <p style="text-align: center;" ><span data-translate="copyright">Copyright &copy; 2024 All Rights Reserved by</span> <a href="https://codecelsius.com/" style="color: #289db9; font-weight: 600;" target="_blank">Code Celsius IT Solutions</a></p>
+                                    <p style="text-align: center;"><span data-translate="copyright">Copyright &copy;
+                                            2024 All Rights Reserved by</span> <a href="https://codecelsius.com/"
+                                            style="color: #289db9; font-weight: 600;" target="_blank">Code Celsius IT
+                                            Solutions</a></p>
                                 </div>
                             </div>
                         </div>

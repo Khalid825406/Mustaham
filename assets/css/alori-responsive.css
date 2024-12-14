@@ -189,7 +189,8 @@
         right: 0;
         min-height: 600px;
     }
-    .contact-one__img::after{
+
+    .contact-one__img::after {
         content: '';
         position: absolute;
         top: 0;
@@ -197,7 +198,7 @@
         right: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.5); 
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .contact-one__content {
@@ -766,15 +767,20 @@
         font-size: 30px;
         margin-top: 0px;
     }
+    .contact-one{
+        padding: 0px 0px 0px !important;
+    }
     .sec-title {
         position: relative;
         display: block;
         margin-top: 30px;
         margin-bottom: 30px;
     }
+
     .sec-title__title br {
         display: none;
     }
+
     .best-logistics-one {
         position: relative;
         display: block;
@@ -782,6 +788,7 @@
         padding: 20px 0px 0px;
         z-index: 1;
     }
+
     .sec-title__text br {
         display: none;
     }
@@ -989,7 +996,9 @@
     .about-one__content .sec-title__title {
         font-size: 34px;
     }
-    .contact-one__content .comment-form__input-box input[type="text"], .contact-one__content .comment-form__input-box input[type="email"] {
+
+    .contact-one__content .comment-form__input-box input[type="text"],
+    .contact-one__content .comment-form__input-box input[type="email"] {
         height: 70px;
         width: 100%;
         border: 1px solid #efefef;
@@ -1004,6 +1013,7 @@
         text-transform: capitalize;
         font-family: var(--thm-font);
     }
+
     .contact-one__content .comment-form__input-box textarea {
         color: #060315;
         font-size: 16px;
@@ -1018,6 +1028,7 @@
         font-weight: 400;
         text-transform: capitalize;
     }
+
     .about-one__img {
         max-width: none;
     }
@@ -1052,6 +1063,7 @@
         right: 0;
         text-align: center;
     }
+
     .about-one__img2 {
         position: absolute;
         left: 0px;
@@ -1238,7 +1250,7 @@
 
     /**Video One**/
     .video-one {
-        padding-bottom: 70px;
+        padding-bottom: 30px;
     }
 
     .video-one__inner {
@@ -1253,6 +1265,7 @@
         font-size: 24px;
         line-height: 30px;
     }
+
     .projects-one {
         position: relative;
         display: block;
@@ -1261,6 +1274,7 @@
         overflow: hidden;
         z-index: 1;
     }
+
     .our-material-one {
         position: relative;
         display: block;
@@ -1268,6 +1282,7 @@
         padding: 0px 0px 60px;
         z-index: 1;
     }
+
     .services-one {
         position: relative;
         display: block;
@@ -1276,6 +1291,7 @@
         overflow: hidden;
         z-index: 1;
     }
+
     .our-material-one__content .sec-title {
         margin-bottom: 22px;
     }
@@ -1309,11 +1325,35 @@
         bottom: auto;
         right: 0;
     }
-.new-say{
-    margin-top: 70px;
-}
+
+    .about-one--two .about-one__img2 {
+        max-width: 257px;
+        height: 382px;
+    }
+    .about-one__img2::before {
+        position: absolute;
+        top: -14px;
+        left: -14px;
+        bottom: -14px;
+        right: -14px;
+        background: #ffffff;
+        content: "";
+        z-index: -1;
+    }
+
+    .new-say {
+        margin-top: 44px;
+    }
+    .blog-one {
+        position: relative;
+        display: block;
+        padding: 0px 0px 60px;
+        background: #ffffff;
+        z-index: 1;
+        margin-top: 64px;
+    }
     .contact-one__content {
-        padding-top:    0px;
+        padding-top: 0px;
     }
 
     .contact-one__img .overlay-content {
@@ -1521,7 +1561,7 @@
 
     /**Mission One**/
     .mission-one {
-        padding: 0px 0px 120px;
+        padding: 0px 0px 70px;
     }
 
     .mission-one__content {
@@ -1554,10 +1594,14 @@
     .about-one--two--about {
         position: relative;
         display: block;
-        padding: 60px 0px 60px;
+        padding: 60px 0px 26px;
     }
 
-
+    .mission-one__content-single {
+        position: relative;
+        display: block;
+        margin-bottom: 26px;
+    }
 
     /**Video One Team**/
     .video-one--two--about--team {

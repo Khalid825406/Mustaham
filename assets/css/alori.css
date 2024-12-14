@@ -3401,7 +3401,6 @@ button {
   position: relative;
   display: block;
   background: #ffffff;
-  padding: 120px 0px 120px;
   z-index: 1;
 }
 
@@ -3523,7 +3522,7 @@ button {
 }
 
 .contact-one__content .comment-form__btn.thm-btn {
-  background: var(--alori-black);
+  background: #289db9;
 }
 
 .contact-one__content .comment-form__btn.thm-btn::after {

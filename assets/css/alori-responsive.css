@@ -753,13 +753,25 @@
 /** Mobile Layout: 320px. **/
 @media only screen and (max-width: 767px) {
     .sec-title__title {
-        font-size: 35px;
+        font-size: 30px;
+        margin-top: 0px;
     }
-
+    .sec-title {
+        position: relative;
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
     .sec-title__title br {
         display: none;
     }
-
+    .best-logistics-one {
+        position: relative;
+        display: block;
+        background: #fef7f1;
+        padding: 20px 0px 0px;
+        z-index: 1;
+    }
     .sec-title__text br {
         display: none;
     }
@@ -956,18 +968,46 @@
 
     /**About One**/
     .about-one {
-        padding: 120px 0px 110px;
+        padding: 40px 0px 40px;
     }
 
     .about-one__content {
-        margin-top: 73px;
+        margin-top: 40px;
         margin-left: 0px;
     }
 
     .about-one__content .sec-title__title {
-        font-size: 40px;
+        font-size: 34px;
     }
-
+    .contact-one__content .comment-form__input-box input[type="text"], .contact-one__content .comment-form__input-box input[type="email"] {
+        height: 70px;
+        width: 100%;
+        border: 1px solid #efefef;
+        background: #f6f6f6;
+        padding: 0 20px;
+        margin-bottom: 24px;
+        border-radius: 0px;
+        outline: none;
+        font-size: 16px;
+        color: #060315;
+        font-weight: 400;
+        text-transform: capitalize;
+        font-family: var(--thm-font);
+    }
+    .contact-one__content .comment-form__input-box textarea {
+        color: #060315;
+        font-size: 16px;
+        height: 160px;
+        width: 100%;
+        background: #f6f6f6;
+        padding: 16px 20px 30px;
+        border: 1px solid #efefef;
+        border-radius: 0px;
+        outline: none;
+        margin-bottom: 24px;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
     .about-one__img {
         max-width: none;
     }
@@ -985,7 +1025,7 @@
     }
 
     .about-one__img2 {
-        position: relative;
+        position: absolute;
         left: 0px;
         bottom: 0px;
         margin-top: 25px;
@@ -1001,6 +1041,16 @@
         bottom: 0px;
         right: 0;
         text-align: center;
+    }
+    .about-one__img2 {
+        position: absolute;
+        left: 0px;
+        bottom: 3px;
+        right: 0;
+        max-width: 254px;
+        width: 100%;
+        margin: 0 auto;
+        z-index: 1;
     }
 
     .about-one__content-text p br {
@@ -1178,11 +1228,11 @@
 
     /**Video One**/
     .video-one {
-        padding-bottom: 120px;
+        padding-bottom: 70px;
     }
 
     .video-one__inner {
-        padding: 110px 20px 120px;
+        padding: 50px 15px 50px;
     }
 
     .video-one__inner h2 br {
@@ -1190,12 +1240,38 @@
     }
 
     .video-one__inner h2 {
-        font-size: 26px;
-        line-height: 50px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .projects-one {
+        position: relative;
+        display: block;
+        padding: 0px 0px 140px;
+        background: #fef2e8;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .our-material-one {
+        position: relative;
+        display: block;
+        background: #ffffff;
+        padding: 0px 0px 60px;
+        z-index: 1;
+    }
+    .services-one {
+        position: relative;
+        display: block;
+        background: #ffffff;
+        padding: 0px 0px 0px;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .our-material-one__content .sec-title {
+        margin-bottom: 22px;
     }
 
     .video-one__inner p {
-        font-size: 22px;
+        font-size: 19px;
     }
 
 
@@ -1215,18 +1291,22 @@
 
 
 
-
+.color{
+    color: #fff;
+}
     /**Contact One**/
     .contact-one__img {
         top: 0px;
         left: 0;
         bottom: auto;
         right: 0;
-        min-height: 600px;
+        min-height: 610px;
     }
-
+.new-say{
+    margin-top: 70px;
+}
     .contact-one__content {
-        padding-top: 540px;
+        padding-top:    0px;
     }
 
     .contact-one__img .overlay-content {

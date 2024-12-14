@@ -773,12 +773,19 @@
     .sec-title {
         position: relative;
         display: block;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 55px;
+        margin-bottom: 60px;
     }
 
     .sec-title__title br {
         display: none;
+    }
+    .services-two {
+        position: relative;
+        display: block;
+        background: #ffffff;
+        padding: 80px 0px 60px;
+        z-index: 1;
     }
 
     .best-logistics-one {
@@ -1491,13 +1498,20 @@
 
     /**Product One**/
     .product-one {
-        padding: 120px 0px 80px;
+        padding: 80px 0px 60px;
     }
 
     .product-one__single {
         max-width: 500px;
         width: 100%;
         margin: 0 auto 30px;
+    }
+    .contact-page {
+        position: relative;
+        display: block;
+        background: #ffffff;
+        padding: 60px 0px 60px;
+        z-index: 1;
     }
 
     /**Team One**/
@@ -1826,12 +1840,13 @@
     }
 
     .contact-page__get-in-touch ul li {
-        display: block;
+        display: flex;
+        align-items: center;
     }
 
 
-    .contact-page__get-in-touch ul li .icon {
-        margin-bottom: 20px;
+    .contact-page__get-in-touch ul li {
+        padding: 32px 8px 32px;
     }
 
     .contact-page__comment-form {

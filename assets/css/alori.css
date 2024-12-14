@@ -3523,7 +3523,7 @@ button {
 }
 
 .contact-one__content .comment-form__btn.thm-btn {
-  background: var(--alori-black);
+  background: #289db9;
 }
 
 .contact-one__content .comment-form__btn.thm-btn::after {

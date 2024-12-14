@@ -3401,6 +3401,7 @@ button {
   position: relative;
   display: block;
   background: #ffffff;
+  padding: 120px 0px 120px;
   z-index: 1;
 }
 
@@ -3522,7 +3523,7 @@ button {
 }
 
 .contact-one__content .comment-form__btn.thm-btn {
-  background: #289db9;
+  background: var(--alori-black);
 }
 
 .contact-one__content .comment-form__btn.thm-btn::after {
@@ -3631,7 +3632,14 @@ button {
     Blog One
 =============================================
 ***/
-
+.blog-one {
+  position: relative;
+  display: block;
+  padding: 0px 0px 60px;
+  background: #ffffff;
+  z-index: 1;
+  margin-top: 100px;
+}
 
 .blog-one .sec-title {
   margin-bottom: 56px;
